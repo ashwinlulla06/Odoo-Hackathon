@@ -26,3 +26,12 @@ def calculate_trip_budget(trip_id: str, db: Session):
             "activities_cost": total_items_budget
         }
     }
+
+def persist_trip_budget(trip_id: str, db: Session) -> float:
+    """Recalculate and save total_budget onto the Trip row itself."""
+    result = calculate_trip_budget(trip_id, db)
+    trip = db.query(Trip).filter(Trip.id == trip_id).first()
+    if trip:
+        trip.total_budget = result["total_budget"]
+        db.commit()
+    return result["total_budget"]
