@@ -1,0 +1,5 @@
+odoo_backend_ARCHIVE_unused/
+*.db
+__pycache__/
+*.pyc
+.venv/
