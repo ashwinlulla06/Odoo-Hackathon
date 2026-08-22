@@ -11,6 +11,8 @@ from backend.schemas.trip_stop import TripStopCreate, TripStopUpdate, TripStopOu
 from backend.models.itinerary_item import ItineraryItem
 from backend.schemas.itinerary_item import ItineraryItemCreate, ItineraryItemUpdate, ItineraryItemOut
 
+from backend.services.budget_service import calculate_trip_budget
+
 router = APIRouter(prefix="/api/trips", tags=["trips"])
 
 
@@ -131,3 +133,11 @@ def delete_itinerary_item(trip_id: str, stop_id: str, item_id: str, db: Session 
     db.delete(item)
     db.commit()
     return {"deleted": True}
+
+@router.get("/{trip_id}/budget")
+def get_trip_budget(trip_id: str, db: Session = Depends(get_db)):
+    trip = db.query(Trip).filter(Trip.id == trip_id).first()
+    if not trip:
+        raise HTTPException(status_code=404, detail="Trip not found")
+    
+    return calculate_trip_budget(trip_id, db)
