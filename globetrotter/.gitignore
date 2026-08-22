@@ -3,3 +3,5 @@ odoo_backend_ARCHIVE_unused/
 __pycache__/
 *.pyc
 .venv/
+frontend/node_modules/
+frontend/dist/
