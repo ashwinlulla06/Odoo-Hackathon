@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GlobeTrotter planner request",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "goal": {"enum": ["balanced", "budget", "relaxed", "packed"], "default": "balanced"},
+    "preferences": {"type": "array", "maxItems": 20, "items": {"type": "string"}},
+    "daily_budget": {"type": ["number", "null"], "minimum": 0},
+    "notes": {"type": ["string", "null"], "maxLength": 1000},
+    "use_llm": {"type": "boolean", "default": true}
+  }
+}

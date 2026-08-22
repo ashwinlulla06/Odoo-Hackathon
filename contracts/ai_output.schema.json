@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GlobeTrotter planner proposal",
+  "type": "object",
+  "required": ["id", "trip_id", "status", "source", "summary", "estimated_total", "warnings", "items"],
+  "properties": {
+    "id": {"type": "string"},
+    "trip_id": {"type": "string"},
+    "status": {"enum": ["ready", "applied", "failed"]},
+    "source": {"enum": ["gemini", "rules"]},
+    "model": {"type": ["string", "null"]},
+    "summary": {"type": "string"},
+    "estimated_total": {"type": "number", "minimum": 0},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["stop_id", "activity_id", "name", "day_index", "sequence", "time_slot", "cost"],
+        "properties": {
+          "stop_id": {"type": "string"},
+          "activity_id": {"type": "string"},
+          "name": {"type": "string"},
+          "day_index": {"type": "integer", "minimum": 1},
+          "sequence": {"type": "integer", "minimum": 0},
+          "time_slot": {"type": "string", "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d$"},
+          "cost": {"type": "number", "minimum": 0},
+          "notes": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

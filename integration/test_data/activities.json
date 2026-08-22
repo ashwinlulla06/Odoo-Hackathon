@@ -1,0 +1,5 @@
+[
+  {"id":"act-paris-louvre","city_id":"city-paris","name":"Louvre Museum","category":"culture","cost":22.0,"duration_hours":3.0},
+  {"id":"act-paris-food","city_id":"city-paris","name":"Le Marais Food Walk","category":"food","cost":55.0,"duration_hours":2.5},
+  {"id":"act-paris-seine","city_id":"city-paris","name":"Seine River Cruise","category":"relaxation","cost":18.0,"duration_hours":1.5}
+]

@@ -1,0 +1,30 @@
+{
+  "info": {
+    "name": "GlobeTrotter AI Planner",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key":"baseUrl","value":"http://127.0.0.1:8000"},
+    {"key":"tripId","value":"replace-with-trip-id"},
+    {"key":"proposalId","value":"replace-with-proposal-id"}
+  ],
+  "item": [
+    {
+      "name": "Create AI proposal",
+      "request": {
+        "method": "POST",
+        "header": [{"key":"Content-Type","value":"application/json"}],
+        "body": {"mode":"raw","raw":"{\n  \"goal\": \"balanced\",\n  \"preferences\": [\"culture\", \"food\"],\n  \"daily_budget\": 150,\n  \"notes\": \"Prefer relaxed mornings\",\n  \"use_llm\": true\n}"},
+        "url": "{{baseUrl}}/api/v1/trips/{{tripId}}/planner/proposals"
+      }
+    },
+    {
+      "name": "Get AI proposal",
+      "request": {"method":"GET","url":"{{baseUrl}}/api/v1/trips/{{tripId}}/planner/proposals/{{proposalId}}"}
+    },
+    {
+      "name": "Apply AI proposal",
+      "request": {"method":"POST","url":"{{baseUrl}}/api/v1/trips/{{tripId}}/planner/proposals/{{proposalId}}/apply"}
+    }
+  ]
+}

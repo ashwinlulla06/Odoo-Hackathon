@@ -1,0 +1,14 @@
+{
+  "id": "proposal-example",
+  "trip_id": "trip-example",
+  "status": "ready",
+  "source": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "summary": "A relaxed Delhi culture and food itinerary",
+  "estimated_total": 2050.0,
+  "warnings": [],
+  "items": [
+    {"stop_id":"stop-example","activity_id":"act-delhi-red-fort","name":"Red Fort Heritage Walk","day_index":1,"sequence":10,"time_slot":"10:00","cost":650.0,"notes":"Allow approximately two and a half hours"},
+    {"stop_id":"stop-example","activity_id":"act-delhi-food","name":"Old Delhi Food Trail","day_index":1,"sequence":20,"time_slot":"14:00","cost":1400.0,"notes":null}
+  ]
+}

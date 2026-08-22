@@ -1,0 +1,22 @@
+[
+  {"id":"city-delhi","name":"Delhi","country":"India","cost_index":0.72,"popularity":99,"image_url":"https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-mumbai","name":"Mumbai","country":"India","cost_index":0.88,"popularity":98,"image_url":"https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-bengaluru","name":"Bengaluru","country":"India","cost_index":0.82,"popularity":94,"image_url":"https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-chennai","name":"Chennai","country":"India","cost_index":0.68,"popularity":90,"image_url":"https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-kolkata","name":"Kolkata","country":"India","cost_index":0.62,"popularity":91,"image_url":"https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-hyderabad","name":"Hyderabad","country":"India","cost_index":0.67,"popularity":93,"image_url":"https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-jaipur","name":"Jaipur","country":"India","cost_index":0.55,"popularity":96,"image_url":"https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-agra","name":"Agra","country":"India","cost_index":0.52,"popularity":97,"image_url":"https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-varanasi","name":"Varanasi","country":"India","cost_index":0.46,"popularity":95,"image_url":"https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-goa","name":"Goa","country":"India","cost_index":0.78,"popularity":96,"image_url":"https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-udaipur","name":"Udaipur","country":"India","cost_index":0.58,"popularity":89,"image_url":"https://images.unsplash.com/photo-1595658658481-d53d3f999875?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-kochi","name":"Kochi","country":"India","cost_index":0.63,"popularity":88,"image_url":"https://images.unsplash.com/photo-1590123716716-3e6e51c037c8?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-mysuru","name":"Mysuru","country":"India","cost_index":0.52,"popularity":84,"image_url":"https://images.unsplash.com/photo-1600112356915-089abb8fc71a?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-rishikesh","name":"Rishikesh","country":"India","cost_index":0.54,"popularity":87,"image_url":"https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-amritsar","name":"Amritsar","country":"India","cost_index":0.50,"popularity":90,"image_url":"https://images.unsplash.com/photo-1588096344356-9b497ca5ce8a?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-ahmedabad","name":"Ahmedabad","country":"India","cost_index":0.60,"popularity":82,"image_url":"https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-pune","name":"Pune","country":"India","cost_index":0.70,"popularity":85,"image_url":"https://images.unsplash.com/photo-1572782252655-9c8771392601?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-jodhpur","name":"Jodhpur","country":"India","cost_index":0.51,"popularity":86,"image_url":"https://images.unsplash.com/photo-1566873535350-a3f5d4a804b7?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-shillong","name":"Shillong","country":"India","cost_index":0.49,"popularity":80,"image_url":"https://images.unsplash.com/photo-1570881974187-0fe6d0689bfa?auto=format&fit=crop&w=900&q=80"},
+  {"id":"city-srinagar","name":"Srinagar","country":"India","cost_index":0.61,"popularity":92,"image_url":"https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=900&q=80"}
+]

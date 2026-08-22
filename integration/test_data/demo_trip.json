@@ -1,0 +1,5 @@
+{
+  "trip": {"name":"Paris Culture Weekend","owner_id":"demo-user","start_date":"2026-09-12","end_date":"2026-09-14","description":"A relaxed culture and food weekend"},
+  "stops": [{"city_id":"city-paris","sequence":10,"start_date":"2026-09-12","end_date":"2026-09-14"}],
+  "planner_request": {"goal":"balanced","preferences":["culture","food"],"daily_budget":100,"notes":"Prefer relaxed mornings","use_llm":false}
+}

@@ -1,0 +1,7 @@
+{
+  "goal": "balanced",
+  "preferences": ["culture", "food"],
+  "daily_budget": 150,
+  "notes": "Prefer relaxed mornings",
+  "use_llm": true
+}
