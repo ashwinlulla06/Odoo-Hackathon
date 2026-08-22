@@ -1,0 +1,22 @@
+[
+  {
+    "id": "act-eiffel",
+    "city_id": "city-paris",
+    "name": "Eiffel Tower Tour",
+    "category": "Sightseeing",
+    "cost": 30.0,
+    "duration_hours": 3.0,
+    "description": "Guided tour of the iconic tower.",
+    "image_url": null
+  },
+  {
+    "id": "act-sushi",
+    "city_id": "city-tokyo",
+    "name": "Tsukiji Sushi Masterclass",
+    "category": "Food",
+    "cost": 120.0,
+    "duration_hours": 2.5,
+    "description": "Learn to make sushi from a master.",
+    "image_url": null
+  }
+]
