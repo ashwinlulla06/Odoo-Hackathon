@@ -3,3 +3,4 @@ odoo_backend_ARCHIVE_unused/
 __pycache__/
 *.pyc
 .venv/
+backend/.env
